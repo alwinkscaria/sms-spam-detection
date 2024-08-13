@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 # Load the Logistic Regression model and TFIDFVectorizer using joblib
 model_lr = joblib.load('models/support_vector_classifier_model.pkl')
-vect = joblib.load('models/tfidf_vectorizer_1.pkl')
+vect = joblib.load('models/tfidf_vectorizer.pkl')
 
 # Text preprocessing functions...
 
