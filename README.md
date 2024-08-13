@@ -123,6 +123,11 @@ If you would like to contribute to the project, please fork the repository and s
 
 ## Contact
 
-For any questions or feedback, please reach out to [Alwin Scaria](mailto:alwinkscaria@gmail.com).
+For any questions or feedback, please reach out to 
+[Alwin Scaria](mailto:alwinkscaria@gmail.com).
+[Anisha Susan Mathew](anishasusan023@gmail.com).
+[Ashna Viji Alex](ashnaalex15@gmail.com).
+[Jobin Philip](jobin.philip4713@gmail.com).
+[Mohamed Afthab](af7hab@gmail.com).
 
 ---
