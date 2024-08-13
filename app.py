@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, render_template
-import pickle
+import joblib  # Replacing pickle with joblib
 from sklearn.feature_extraction.text import CountVectorizer
 import re
 from nltk.corpus import stopwords
@@ -8,12 +8,9 @@ from nltk.stem import PorterStemmer
 # Initialize Flask app
 app = Flask(__name__)
 
-# Load the Logistic Regression model and TFIDFVectorizer
-with open('models/logistic_regression_model.pkl', 'rb') as model_file:
-    model_lr = pickle.load(model_file)
-
-with open('models/tfidf_vectorizer.pkl', 'rb') as vect_file:
-    vect = pickle.load(vect_file)
+# Load the Logistic Regression model and TFIDFVectorizer using joblib
+model_lr = joblib.load('models/support_vector_classifier_model.pkl')
+vect = joblib.load('models/tfidf_vectorizer_1.pkl')
 
 # Text preprocessing functions...
 
