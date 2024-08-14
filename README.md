@@ -1,4 +1,4 @@
-# SMS Spam Detection Project
+# SMS Spam Detection
 
 This project is a web application for SMS spam detection built using Flask and a Logistic Regression model. The model was trained with a TF-IDF vectorizer to classify SMS messages as either "SPAM" or "NOT SPAM."
 
